@@ -1,6 +1,6 @@
 import React, { useReducer, useState } from "react";
 
-export function reducer(state, action) {
+function reducer(state, action) {
   switch (action.type) {
     case "icnrement": {
       return {

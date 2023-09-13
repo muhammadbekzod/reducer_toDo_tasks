@@ -6,6 +6,10 @@ import "./index.css";
 import InputLike from "./useState/inputLike";
 import Form from "./userReducer/useReducerFrom";
 import ToDoList from "./userReducer/toDoList";
+import UseRefComponent from "./useRef";
+import UseRefFocus from "./useRef/focus";
+import HefContainer from "./useRef/hefContainer";
+import Flower from "./useRef/flower";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -13,7 +17,12 @@ root.render(
     <>
       {/* <InputLike /> */}
       {/* <Form /> */}
-      <ToDoList />
+
+      {/* <ToDoList /> */}
+      {/* <UseRefComponent /> */}
+      {/* <UseRefFocus /> */}
+      {/* <HefContainer /> */}
+      <Flower />
     </>
   </React.StrictMode>
 );
