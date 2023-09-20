@@ -10,6 +10,8 @@ import UseRefComponent from "./useRef";
 import UseRefFocus from "./useRef/focus";
 import HefContainer from "./useRef/hefContainer";
 import Flower from "./useRef/flower";
+import UseContext from "./useContext";
+import MyApp from "./useContext/text";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -22,7 +24,9 @@ root.render(
       {/* <UseRefComponent /> */}
       {/* <UseRefFocus /> */}
       {/* <HefContainer /> */}
-      <Flower />
+      {/* <Flower /> */}
+      <UseContext />
+      <MyApp />
     </>
   </React.StrictMode>
 );
